@@ -1,11 +1,10 @@
 {
   "name": "upvote",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "spec/integration/static_spec.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +13,19 @@
     "request": "^2.83.0"
   },
   "dependencies": {
+    "dotenv": "^5.0.0",
     "express": "^4.16.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZayneBerndt/upvote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZayneBerndt/upvote/issues"
+  },
+  "homepage": "https://github.com/ZayneBerndt/upvote#readme",
+  "description": ""
 }
