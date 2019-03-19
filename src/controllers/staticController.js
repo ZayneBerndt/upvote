@@ -1,5 +1,5 @@
 module.exports = {
   index(req, res, next){
-    res.send("Welcome to upvote");
+    res.render("static/index", {title: "Welcome to upvote"});
   }
 }
